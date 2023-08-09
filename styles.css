@@ -439,3 +439,15 @@ footer {
     }
 
 }
+
+@media only screen and (max-width: 400px) {
+    .content a {
+        margin: 0 5px;
+    }
+
+    nav a {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+}
