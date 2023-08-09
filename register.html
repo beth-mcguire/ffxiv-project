@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scions Registration</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="registration">
+    <nav>
+        <h4 class="val-name">Z'valiyah</h4>
+        <div class="content">
+            <a href="index.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Companionship</a>
+        </div>
+    </nav>
+
+    <div class="registration-container">
+        <h1 class="form-title">Become a Scion</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required />
+                </div>
+                <div class="user-input-box">
+                    <label for="passcode">Passcode</label>
+                    <input type="password" id="passcode" name="passcode" placeholder="A unique passcode" required />
+                </div>
+                <div class="user-input-box">
+                    <label for="age">Age</label>
+                    <input type="number" min="1" value="1" required />
+                </div>
+                <div class="user-input-box">
+                    <label for="jobs">Area of Expertise</label>
+                    <select name="jobs" id="jobs" required>
+                        <option value="healing">Healer</option>
+                        <option value="tanking">Tank</option>
+                        <option value="fighter">Fighter</option>
+                        <option value="infiltration">Infiltration</option>
+                        <option value="wordsmith">Wordsmith</option>
+                        <option value="bard">Bard</option>
+                        <option value="crafter">Crafter</option>
+                        <option value="leader">Leadership</option>
+                    </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="race">Race</label>
+                    <select name="race" id="race" required>
+                        <option value="hyur">Hyur</option>
+                        <option value="lalafell">Lalafell</option>
+                        <option value="miqote">Miqo'te</option>
+                        <option value="elezen">Elezen</option>
+                        <option value="auRa">Au Ra</option>
+                        <option value="roegadyn">Roegadyn</option>
+                        <option value="viera">Viera</option>
+                        <option value="hrothgar">Hrothgar</option>
+                    </select>
+                </div>
+                <div class="linkpearl-box">
+                    <p class="linkpearl-title">Linkpearl?</p>
+                    <input type="radio" id="yes" name="linkpearl" value="yes" />
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="linkpearl" value="No" />
+                    <label for="no">No</label>
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value="Register" />
+                </div>
+            </div>
+        </form>
+        <p>** Wait times vary, but we will respond within a few weeks. Thank you for helping to keep the world safe.
+            The Scions of the Seventh Dawn</p>
+    </div>
+
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>

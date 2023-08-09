@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 45, 45);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.content a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.content a:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 75px;
+    color: #fff;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "a a b"
+        "a a d"
+        "c c c"
+        "g g h"
+        "g g j"
+        "e e e"
+        "i i k"
+        "i i f"
+        "l l l"
+        "n n p"
+        "n n o"
+        "m m m";
+    place-items: center;
+}
+
+.img-grid img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+.g {
+    grid-area: g;
+}
+
+.h {
+    grid-area: h;
+}
+
+.i {
+    grid-area: i;
+}
+
+.j {
+    grid-area: j;
+}
+
+.k {
+    grid-area: k;
+}
+
+.l {
+    grid-area: l;
+}
+
+.m {
+    grid-area: m;
+    margin-bottom: 10px;
+}
+
+.n {
+    grid-area: n;
+}
+
+.o {
+    grid-area: o;
+}
+
+.p {
+    grid-area: p;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/* About Body */
+
+.bloop {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    margin-top: 58px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.bloop h1 {
+    margin-bottom: 50px;
+    color: goldenrod;
+}
+
+.flex-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 3px solid rgb(177, 45, 45);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-container .right {
+    width: 55%;
+}
+
+.flex-container p,
+.bio p,
+.testimony p {
+    margin: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+
+.bio p {
+    color: rgb(177, 45, 45);
+    font-weight: 500;
+}
+
+.bio h3 {
+    color: rgb(177, 45, 45);
+    font-weight: 800;
+}
+
+.bloop img {
+    object-fit: cover;
+    max-width: 500px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.cred {
+    order: 2;
+}
+
+/* BIO */
+
+.bio {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    padding: 30px 100px;
+    background-color: #fff;
+}
+
+.zval-img {
+    background-color: #fff;
+}
+
+.zval-img img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.bio p {
+    padding: 15px;
+    line-height: 2;
+}
+
+.testimony {
+    color: #fff;
+    background-color: #000;
+    padding: 70px;
+    font-size: 18px;
+}
+
+.testimony p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.testimony h2 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+/* Registration */
+
+.registration {
+    background: url(images/login.png);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-container {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    color: #fff;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px #fff;
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    border-bottom: solid 1px #fff;
+}
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.user-input-box label {
+    width: 95%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.user-input-box input,
+.user-input-box select {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.linkpearl-title {
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.linkpearl-box {
+    width: 50%;
+    text-align: center;
+}
+
+.linkpearl-box label {
+    padding: 0 20px 0 5px;
+}
+
+.linkpearl-box label,
+.linkpearl-box input,
+.submit-button input {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.submit-button input {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: rgb(177, 45, 45);
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1.1px;
+}
+
+.submit-button input:hover {
+    background-color: rgba(177, 45, 45, 0.8);
+    transition: all 0.2s ease-in;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .flex-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .img-grid {
+        grid-template-areas:
+            "a a a"
+            "b b b"
+            "c c c"
+            "d d d"
+            "e e e"
+            "f f f"
+            "g g g"
+            "h h h"
+            "i i i"
+            "j j j"
+            "k k k"
+            "l l l"
+            "p p p"
+            "n n n"
+            "o o o"
+            "m m m"
+    }
+
+    .cred-right {
+        order: 2;
+    }
+
+
+    .flex-container .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .main-user-info {
+        flex-direction: column;
+    }
+
+    .registration {
+        height: auto;
+    }
+
+    .registration-container {
+        margin-top: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .bio {
+        padding: 10px;
+    }
+
+    .testimony {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .flex-container {
+        width: 100%;
+    }
+
+    .cred-right {
+        order: 2;
+    }
+
+    .bloop img {
+        max-width: 100%;
+    }
+
+    .val-name {
+        display: none;
+    }
+
+}
