@@ -438,6 +438,7 @@ footer {
         display: none;
     }
 
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -448,6 +449,22 @@ footer {
     nav a {
         font-size: 13px;
         font-weight: 500;
+    }
+
+    .user-input-box {
+        width: 100%;
+    }
+
+    .registration-container {
+        margin-top: 90px;
+    }
+
+    .linkpearl-box {
+        width: 100%;
+    }
+
+    .bloop h1 {
+        margin-top: 50px;
     }
 
 }
