@@ -181,16 +181,6 @@ footer {
     text-align: left;
 }
 
-.bio p {
-    color: rgb(177, 45, 45);
-    font-weight: 500;
-}
-
-.bio h3 {
-    color: rgb(177, 45, 45);
-    font-weight: 800;
-}
-
 .bloop img {
     object-fit: cover;
     max-width: 500px;
@@ -224,7 +214,15 @@ footer {
 .bio p {
     padding: 15px;
     line-height: 2;
+    color: #000;
+    font-weight: 500;
 }
+
+.bio h3 {
+    color: rgb(177, 45, 45);
+    font-weight: 800;
+}
+
 
 .testimony {
     color: #fff;
